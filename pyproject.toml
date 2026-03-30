@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cli-journal"
+version = "0.1.0"
+description = "A Claude Code-inspired CLI journaling tool"
+requires-python = ">=3.9"
+dependencies = [
+    "anthropic>=0.86.0",
+    "rich>=14.0.0",
+    "prompt_toolkit>=3.0.0",
+    "python-frontmatter>=1.1.0",
+    "click>=8.1.0",
+    "tomli>=2.0.0; python_version < '3.11'",
+    "tomli-w>=1.0.0",
+]
+
+[project.scripts]
+journal = "journal.__main__:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["journal"]
