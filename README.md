@@ -1,11 +1,11 @@
-# journal
+# cli-journal
 
 An interactive CLI journaling tool inspired by the look and feel of Claude Code. Write, search, and reflect on journal entries without leaving the terminal — with optional AI-powered insights via the Anthropic API.
 
 ```
 ╭──────────────────────────────────────────────────────────────────────────────╮
 │                                                                              │
-│  journal  v0.1.0                                                             │
+│  cli-journal  v0.1.0                                                             │
 │  42 entries  ·  Monday, March 30, 2026                                       │
 │  AI enabled (claude-sonnet-4-6)                                              │
 │                                                                              │
